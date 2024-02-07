@@ -1,0 +1,70 @@
+/* @import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"; */
+
+
+
+body {
+    /* background-color: #030014;
+    color: #fff; */
+
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+/* .navbar {
+    width: 80%;
+    margin: auto;
+} */
+#canvas {
+    position: absolute;
+    width: 1000px;
+    height: 1000px;
+    background: #fff;
+  }
+
+ 
+.menu {
+  
+    padding: 0.1rem !important;
+}
+
+.home-hero-gradient {
+    background-image: linear-gradient(45deg,#a163f1,#6363f1 22%,#3498ea 40%,#40dfa3 67%, rgba(64, 223, 163, 0));
+    background-size: 150% 100%;
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    animation: intro-gradient 1.2s cubic-bezier(0.85, 0.26, 0.89, 0.93);
+    animation-iteration-count: 1;
+    animation-fill-mode: backwards;
+    animation-delay: 0.4s;
+    background-image: linear-gradient(157.4deg,#cb52dc 15.94%,#ff9052 54.97%);
+}  /* Genel */
+::-webkit-scrollbar {
+  width: 12px; /* genişlik */
+}
+
+/* İz bırakma (thumb) */
+::-webkit-scrollbar-thumb {
+  background-color: #333; /* scroll bar rengi */
+  border-radius: 1px; /* border yarıçapı */
+  border: 1px solid #555; /* border rengi ve genişliği */
+}
+
+/* Arka plan (track) */
+::-webkit-scrollbar-track {
+  background-color: #666; /* track rengi */
+  border-radius: 0px; /* border yarıçapı */
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+.t-wrap.relative {
+    box-shadow: 0px 0px 20px 0px rgb(254 254 254 / 12%) !important;
+}
+
+img.m-logo {
+  height: 32px;
+}
